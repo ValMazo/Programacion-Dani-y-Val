@@ -101,3 +101,76 @@ DifficultyCompletingTasks:	Presencia de dificultad para completar tareas	{0: No,
 Forgetfulness:	Perdida de la memoria {0: No, 1: Sí}.
 
 Diagnosis:	Diagnóstico de Alzheimer (Variable Objetivo) 	{0: No, 1: Sí}.
+
+Heart Disease Dataset (Kaggle – UCI Heart Disease)
+Conjunto de datos clínicos usados para evaluar factores relacionados con enfermedades cardíacas
+
+Columnas y su significado:
+	
+1.	age – Edad del paciente en años.
+	
+2.	sex – Sexo del paciente (0 = mujer, 1 = hombre).
+	
+3.	cp – Tipo de dolor en el pecho (chest pain type).
+	
+0: angina típica
+	
+1: angina atípica
+	
+2: dolor no anginoso
+	
+3: asintomático
+	
+4.	trestbps – Presión arterial en reposo (mm Hg).
+	
+5.	chol – Nivel de colesterol sérico (mg/dl).
+	
+6.	fbs – Glucosa en ayunas > 120 mg/dl (1 = sí, 0 = no).
+	
+7.	restecg – Resultados del electrocardiograma en reposo.
+	
+8.	thalach – Frecuencia cardíaca máxima alcanzada.
+	
+9.	exang – Angina inducida por ejercicio (1 = sí, 0 = no).
+	
+10.	oldpeak – Depresión ST inducida por ejercicio comparada con reposo.
+	
+11.	slope – Pendiente del segmento ST en el peak del ejercicio.
+	
+12.	ca – Número de vasos mayores coloreados por fluoroscopía (0–3).
+	
+13.	thal – Resultado de la prueba de tálamo (3 = normal, 6 = defecto fijo, 7 = defecto reversible).
+	
+14.	target – Presencia de enfermedad cardíaca (0 = no, 1 = sí).
+
+Indian Liver Patient Dataset (ILPD)
+
+Datos clínicos usados para estudiar indicadores asociados a enfermedades del hígado
+
+Columnas y su significado:
+	
+1.	Age – Edad del paciente en años.
+	
+2.	Gender – Sexo del paciente (Male/Female).
+	
+3.	Total_Bilirubin – Bilirrubina total en sangre.
+	
+4.	Direct_Bilirubin – Bilirrubina directa.
+	
+5.	Alkaline_Phosphotase – Fosfatasa alcalina (enzima hepática).
+	
+6.	Alamine_Aminotransferase (SGPT) – Enzima ALT, marcador de daño hepático.
+	
+7.	Aspartate_Aminotransferase (SGOT) – Enzima AST, otro marcador de daño hepático.
+	
+8.	Total_Proteins – Proteínas totales en sangre.
+	
+9.	Albumin – Albúmina sérica (proteína producida por el hígado).
+	
+10.	Albumin_and_Globulin_Ratio – Relación albúmina / globulina.
+	
+11.	Dataset – Clasificación del paciente según diagnóstico:
+
+1 = presencia de enfermedad hepática
+	
+2 = ausencia de enfermedad hepática
